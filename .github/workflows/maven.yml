@@ -9,8 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Descargar código
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
+
+    - name: Ver estructura del proyecto
+      run: ls -R
 
     - name: Configurar Java
       uses: actions/setup-java@v3
@@ -19,4 +21,4 @@ jobs:
         distribution: 'temurin'
 
     - name: Ejecutar pruebas
-      run: cd MuseoApp && mvn clean test
+      run: mvn clean test
