@@ -212,7 +212,6 @@ El usuario final puede:
 Manual:
 
 * [Manual de usuario final](../../wiki/Manual-de-Usuario)
-* [Documentación externa](https://tudominio.readthedocs.io/)
 
 ### Referencia para usuario administrador
 
